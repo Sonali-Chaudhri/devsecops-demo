@@ -6,7 +6,7 @@ import GameHistory from './components/GameHistory';
 import { calculateWinner, checkDraw } from './utils/gameLogic';
 
 function App() {
-  // Game state
+  // Game statesate
   const [board, setBoard] = useState(Array(9).fill(null));
   const [xIsNext, setXIsNext] = useState(true);
   const [scores, setScores] = useState({ X: 0, O: 0, draws: 0 });
